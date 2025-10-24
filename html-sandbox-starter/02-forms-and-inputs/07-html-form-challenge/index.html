@@ -6,6 +6,69 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - HTML Form Challenge</h1>
+    <h1>Appartment Search</h1>
+
+    <!-- Location -->
+    <label for="location">Location</label>
+    <input type="text" id="location" name="location" />
+    <br /><br />
+
+    <!-- Price -->
+    <label for="price">Price</label>
+    <input type="number" name="price" id="price" min="0" max="10000" />
+    <br /><br />
+
+    <!-- Bedroom -->
+    <label for="bedroom">Bedroom</label>
+    <input
+      type="range"
+      name="numberOfBedrooms"
+      id="bedroom"
+      min="1"
+      max="7"
+      step="1"
+      list="bedroomTicks"
+    />
+    <datalist id="bedroomTicks">
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+      <option value="4"></option>
+      <option value="5"></option>
+      <option value="6"></option>
+      <option value="7"></option>
+    </datalist>
+    <br /><br />
+
+    <!-- Bathroom -->
+    <label for="bathroom">Bathroom</label>
+    <input
+      type="range"
+      name="numberOfBathrooms"
+      id="bathroom"
+      min="1"
+      max="3"
+      step="1"
+      list="bathroomTicks"
+    />
+    <datalist id="bathroomTicks">
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+    </datalist>
+    <br /><br />
+
+    <!-- Pet -->
+    <label for="pet">Pet Friendly</label>
+    <input type="checkbox" id="pet" name="petFriendly" />
+    <br /><br />
+
+    <!-- Date -->
+    <label for="moveinDate">Move-in Date</label>
+    <input type="date" id="moveinDate" name="moveinDate" />
+    <br /><br />
+
+    <!-- Submit -->
+    <button type="submit">Search</button>
   </body>
 </html>
