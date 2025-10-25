@@ -7,6 +7,25 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Image Map</h1>
+
+    <img src="./computer.jpg" alt="" usemap="#computermap" />
+    <map name="computermap">
+      <!-- Computer Clickable -->
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        href="computer.html"
+        alt="computer"
+      />
+      <!-- Phone Clickable -->
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        href="phone.html"
+        alt="phone"
+      />
+      <!-- Cofee Clickable -->
+      <area shape="circle" coords="333,300,45" href="cofee.html" alt="cofee" />
     </map>
   </body>
 </html>
