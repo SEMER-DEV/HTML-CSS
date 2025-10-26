@@ -7,5 +7,28 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Popover & Details</h1>
+
+    <details>
+      <summary>Click to see more details</summary>
+      <p>
+        This is additional information that is hidden by default. When you click
+        on the summary above, this content will be revealed.
+      </p>
+    </details>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eius
+      consequatur odit nemo asperiores repellendus est iure et? Aliquid non
+      maiores dolore molestias in aliquam animi reiciendis modi explicabo
+      doloremque!
+    </p>
+
+    <button popovertarget="popover-1">OpenPopover</button>
+    <div popover id="popover-1">This is a popover</div>
+
+    <button popovertarget="popover-2">OpenPopover 2</button>
+    <div popover id="popover-2">
+      <h3>This is a popover</h3>
+      <p>Hello World</p>
+    </div>
   </body>
 </html>
