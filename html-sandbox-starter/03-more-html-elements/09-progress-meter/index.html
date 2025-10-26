@@ -4,8 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style>
+      meter::-webkit-meter-optimum-value {
+        background: green;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Progress & Meter</h1>
+
+    <!-- Progress -->
+    <label for="file">File Progress</label>
+    <progress id="file" value="32" max="100">32%</progress>
+
+    <!-- meter -->
+    <label for="disk">Disk Usage</label>
+    <meter
+      id="disk"
+      value="60"
+      min="0"
+      max="100"
+      optimum="20"
+      low="40"
+      high="90"
+    >
+      60%
+    </meter>
   </body>
 </html>
