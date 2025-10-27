@@ -1,0 +1,50 @@
+/* Type Selector */
+/* h2 {
+  color: red;
+  font-size: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+} */
+
+/* Class Selector */
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: green;
+}
+
+/* ID Selector */
+#container {
+  max-width: ;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Multiple Style */
+.sporty,
+.casual {
+  font-size: 35px;
+}
+
+/* Decedent Style */
+p {
+  background-color: yellow;
+}
+#container p {
+  background-color: blue;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* border is not inherited */
+  border: 3px solid #333;
+}
