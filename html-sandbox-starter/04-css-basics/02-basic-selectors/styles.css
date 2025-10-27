@@ -24,7 +24,7 @@ a {
 
 /* ID Selector */
 #container {
-  max-width: ;
+  max-width: 600px;
   margin: 100px auto;
   padding: 20px;
 }
