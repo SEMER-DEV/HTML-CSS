@@ -1,3 +1,35 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* Color Names */
+.sporty {
+  color: orange;
+}
+
+/* Hex Values */
+.casual {
+  color: #228b22; /* Forest Green */
+}
+
+/* RGB Values */
+.formal {
+  color: rgb(0, 0, 255); /* Blue */
+}
+
+/* RGBA Values  */
+.card {
+  background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent Red */
+  /* HSL */
+  background-color: hsl(60, 100%, 50%); /* Bright Yellow */
+  /* HSLA */
+  background-color: hsla(300, 100%, 25%, 0.5); /* Semi-transparent Purple */
+}
+
+.card-2 {
+  background-color: #000;
+  color: #fff;
+  /* Opacity */
+  opacity: 0.7;
 }
